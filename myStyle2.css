@@ -19,9 +19,9 @@ li {
 	font-size:15pt;
 	color: lightred;
 }
-p::first-letter {
+/*p::first-letter {
 	font-size:100pt;
-		}
+		}*/
 /* .menu-bar {
 	position: fixed;
 	top:0;
