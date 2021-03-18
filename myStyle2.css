@@ -1,6 +1,9 @@
 body {
 	color: black;/*red;*/
 	}
+h1 {
+	text-align: "center";
+}
 a {
 	color:blue;
 	}
