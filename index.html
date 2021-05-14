@@ -30,9 +30,14 @@ In my freetime, depending on the weather, I typically go outside to my elementar
 would stay at home and play video games. 
 </p>
 
+<h4 id="today"></p>
+
 <script>
+	var d = new Date();
+	document.getElementById("today").innerHTML = "Today is " + d.toUTCString();
 	function showGeneral() {
-		document.getElementById("general").innerHTML = "My name is Calvin Kwok. I was born on the twenty-second of March in the year two-thousand-and-one.";
+		document.getElementById("general").innerHTML = "My name is Calvin Kwok. I was born on March 22nd, 2001. \
+		I currently attend the University of Michigan in Ann Arbor.";
 	}
 	function showHobby() {
 		document.getElementById("hobby").innerHTML = "Basketball and Video Games!";
