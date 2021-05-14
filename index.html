@@ -17,15 +17,26 @@
 </div>
 <h1 align="center">The Story of Calvin Kwok</h1>
 
+<button type="button" onclick="showGeneral()">Who Am I?</button>
 <p class="bio" id="general">
 My name is Calvin Kwok. I was born on the twenty-second of March in the year two-thousand-and-one. I went to elementary school in P.S.1 for Pre-K and Kindergarten, 
 then transferred to P.S.173 for First Grade to Fifth Grade. I went to middle school in M.S.216, otherwise known as George J. Ryan middle school. Currently, I am a
 sophomore at the Bronx High School of Science.
 </p>
 
+<button type="button" onclick="showHobby()">What Are My Hobbies?</button>
 <p class="bio" id="hobby">
 In my freetime, depending on the weather, I typically go outside to my elementary school's park to play basketball with my friends. On days with poor weather, I 
 would stay at home and play video games. 
 </p>
 
+<script>
+	function showGeneral() {
+		document.getElementById("general").innerHTML = "My name is Calvin Kwok. I was born on the twenty-second of March in the year two-thousand-and-one.";
+	}
+	function showHobby() {
+		document.getElementById("hobby").innerHTML = "Basketball and Video Games!";
+	}
+</script>
+</body>
 </html>
